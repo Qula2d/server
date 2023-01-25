@@ -15,11 +15,6 @@ var photo = ayarlar.photo;
 var rolebasic = ayarlar.rolebasic;
 const BannedWords = ["mc2lord.net", "103.74.120.226"]
 
-
-if (message.channel.id != room) {
-	return;
-  }
-
 if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
