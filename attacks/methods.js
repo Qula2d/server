@@ -11,9 +11,7 @@ var room = ayarlar.commandroom;
 var version = ayarlar.versionbot;
 var img = ayarlar.img;
 var img = ayarlar.img;
-if (message.channel.id != room) {
-	return;
-  }
+	
 console.log('Xem tên phương pháp tấn công:' +  message.guild.id)
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
